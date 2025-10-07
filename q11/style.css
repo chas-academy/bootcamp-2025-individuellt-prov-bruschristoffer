@@ -1,8 +1,19 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b6f82;
+
 }
 
 .container {
   height: 100vh;
-  background-color: #d6f4ff;
+  width: 100vw;
+  background-color: #3b6f82;
 }
