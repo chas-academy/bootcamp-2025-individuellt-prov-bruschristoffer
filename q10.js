@@ -14,7 +14,9 @@ const data = [
 ];
 
 // returna namnet i samtliga objekt i arrayen
-const getName = (person) => {};
+const getName = (person) => {
+  return person.name;
+};
 
 // lämna denna orörd
 export const getAllNames = () => {
@@ -24,3 +26,4 @@ export const getAllNames = () => {
   });
   return names;
 };
+console.log(getAllNames());
